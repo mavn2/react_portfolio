@@ -1,7 +1,11 @@
+import React from 'react';
+import  NavBar from './components/Nav/index.js'
+
 function App() {
   return (
-    <body>
-    </body>
+    <div>
+      <NavBar />
+    </div>
   );
 }
 
