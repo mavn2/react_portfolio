@@ -12,7 +12,7 @@ export default function CenterCard(props){
           </Col>
           <Col md={9}>
             <Card.Title>{props.title}</Card.Title>
-            {props.text.map((p) => {return <Card.Text>p</Card.Text>})}
+            {props.text.map((p) => {return <Card.Text>{p}</Card.Text>})}
           </Col>
         </Row>
       </Card.Body>
