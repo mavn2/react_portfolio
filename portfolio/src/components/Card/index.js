@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Row, Col, } from 'react-bootstrap'
+import { Card, Row, Col, Image } from 'react-bootstrap'
 
 //Export a card formatted for use on the landing page
 export default function CenterCard(props){
@@ -8,7 +8,7 @@ export default function CenterCard(props){
       <Card.Body>
         <Row noGutters>
           <Col md={3}>
-            <img className="img-fluid card-img" src={props.image} alt={props.alt}></img>
+            <Image src={props.image} alt={props.alt} fluid rounded />
           </Col>
           <Col md={9}>
             <Card.Title>{props.title}</Card.Title>
