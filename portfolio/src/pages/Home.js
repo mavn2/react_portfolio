@@ -1,6 +1,7 @@
 // Dependencies
 import React from 'react';
-import CenterCard from '../components/Card';
+import CenterCard from '../components/Card'
+import Footer from '../components/Footer'
 import {Container, Row, Col} from 'react-bootstrap';
 
 // Import image for about me
@@ -16,22 +17,23 @@ const aboutText = [
 function Home(){
   return(
     <Container>
-    <Row className="justify-content-start">
-      <Col md className="head">
-        <h2>About Me</h2>
-      </Col>
-    </Row>
-    <Row className="justify-content-start" id="bio">
-      <Col md>
-        <CenterCard
-          image={headShot}
-          alt={"A picture where I don't look too uncomfortable."}
-          title={"About Me"} 
-          text={aboutText}
-        >
-        </CenterCard>
-      </Col>
-    </Row>
+      <Row className="justify-content-start">
+        <Col md className="head">
+          <h2>About Me</h2>
+        </Col>
+      </Row>
+      <Row className="justify-content-start" id="bio">
+        <Col md>
+          <CenterCard
+            image={headShot}
+            alt={"A picture where I don't look too uncomfortable."}
+            title={"About Me"} 
+            text={aboutText}
+          >
+          </CenterCard>
+        </Col>
+      </Row>
+      <Footer />
     </Container>
   );
 };

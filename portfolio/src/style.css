@@ -18,7 +18,7 @@ body{
 
 /*Universal style for page bodies*/
 
-main{
+.main{
     margin-top: 30px;
     max-width: 700px;
     background-color: ghostwhite;
@@ -49,11 +49,16 @@ main{
 /*Style for the About Me card, distinct from Portfolio cards*/
 
 #bio{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 #bio .card{
     background-color: ghostwhite;
+}
+
+#bio .col-md{
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 article{
