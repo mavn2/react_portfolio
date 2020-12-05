@@ -6,12 +6,12 @@ export default function Item(props){
   return(
       <Card className="mb-3">
         <Card.Header className="pHeader">
-          <h4>{props.Name}</h4>
+          <h4>{props.name}</h4>
         </Card.Header>
-        <img src={props.src} alt={props.alt}/>
+        <Card.Img src={props.src} alt={props.alt}/>
         <Card.Footer>
          <Card.Link href={props.git}> Repository</Card.Link>
-         <Card.Link href={props.src}>Live</Card.Link>
+         <Card.Link href={props.live}>Live</Card.Link>
         </Card.Footer>
       </Card>
   );

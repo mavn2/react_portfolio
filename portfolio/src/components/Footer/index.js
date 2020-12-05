@@ -5,7 +5,7 @@ import { Row, Col} from 'react-bootstrap';
 // Import Resume
 import resume from "../../assets/Resume.pdf"
 
-//  Exports a row containing contact info used on several pages
+//  Exports a row containing contact info
 // Since content should be consistent, defined here rather then entered as props
 export default function Footer(){
   return(
@@ -26,7 +26,7 @@ export default function Footer(){
       </Col>
       <Col sm={2}>
         <h5 className="text-center">
-          <a href="assets/Resume.pdf" className ="card-link" target="_blank">
+          <a href={resume} className="card-link" rel="noreferrer" target="_blank">
             Resume
           </a>
         </h5>
