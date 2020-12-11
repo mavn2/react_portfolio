@@ -12,7 +12,7 @@ export default function CenterCard(props){
             <Image src={props.image} alt={props.alt} fluid />
           </Col>
           <Col md={9}>
-            <Tabs>
+            <Tabs className="aboutTabs">
               <Tabs.Tab eventKey="bio" title="Bio">
                 <Card.Text style={{ marginTop: "15px"}}>
                   <article>
