@@ -50,6 +50,7 @@ body{
     vertical-align: middle;
     padding-top: 2px;
 }
+
 /*Style for the About Me card, distinct from Portfolio cards*/
 
 #bio{
@@ -67,6 +68,10 @@ body{
 
 article{
     margin-left: 5px;
+}
+
+.Skills i{
+    min-width: 500px;
 }
 
 
