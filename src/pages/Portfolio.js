@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, CardColumns } from 'react-bootstrap';
 import Project from '../components/Project';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 // Array of projects is imported, keeping this file focused on the page
 import projects from '../assets/projects';
@@ -23,6 +24,7 @@ export default function Portfolio() {
           />
         ))}
       </CardColumns>
+      <Footer />
     </Container>
   );
 }
