@@ -32,7 +32,7 @@ export default function ContactForm() {
         <Form.Label>Name</Form.Label>
         <Form.Control
           type="text"
-          placeholder="name"
+          placeholder="Your Name"
           name="sender_name"
         ></Form.Control>
       </Form.Group>
@@ -40,7 +40,7 @@ export default function ContactForm() {
         <Form.Label>Email</Form.Label>
         <Form.Control
           type="email"
-          placeholder="email"
+          placeholder="youremail@adress.com"
           name="sender_email"
         ></Form.Control>
       </Form.Group>
@@ -48,8 +48,10 @@ export default function ContactForm() {
         <Form.Label>Message</Form.Label>
         <Form.Control
           type="text"
-          placeholder="message"
+          placeholder="Please get in touch"
           name="message"
+          as="textarea"
+          rows={3}
         ></Form.Control>
       </Form.Group>
       <Button variant="primary" type="submit" value="Send">

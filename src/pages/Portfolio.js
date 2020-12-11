@@ -12,9 +12,9 @@ import projects from '../assets/projects';
 export default function Portfolio() {
   console.log(projects);
   return (
-    <Container>
+    <Container className="main">
       <Header page={'Portfolio'} />
-      <CardColumns>
+      <CardColumns className="pb-5 pt-5">
         {projects.map((project) => (
           <Project
             name={project.name}

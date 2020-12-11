@@ -5,104 +5,103 @@ I just wanted to tell you in case something, maybe, doesn't make sense or clashe
 
 /*Style for Navbar*/
 
-.navbar{
-    background: #849ac0;
+.navbar {
+  background: #849ac0;
 }
 
-.nav-link{
-    color: black;
+.nav-link {
+  color: black;
 }
 
 /*Page Background*/
 
-body{
-    padding-top: 65px;
-    background-color: #e5e5ed;
+body {
+  padding-top: 65px;
+  background-color: #e5e5ed;
 }
 
 /*Universal style for page bodies*/
 
-.main{
-    margin-top: 30px;
-    max-width: 700px;
-    background-color: ghostwhite;
+.main {
+  background-color: ghostwhite;
 }
 
 /*Reusable headers/footers for content*/
 
-.head{
-    border-bottom-style: solid;
-    border-width: thin;
-    background-color: #afbee1;
+.head {
+  border-bottom-style: solid;
+  border-width: thin;
+  background-color: #afbee1;
 }
 
-.head h2{
-    vertical-align: middle;
+.head h2 {
+  vertical-align: middle;
 }
 
-.foot{
-    border-top-style: solid;
-    border-width: thin;
-    background-color: #afbee1;
+.foot {
+  border-top-style: solid;
+  border-width: thin;
+  background-color: #afbee1;
 }
 
-.foot h4,h5{
-    vertical-align: middle;
-    padding-top: 2px;
+.foot h4,
+h5 {
+  vertical-align: middle;
+  padding-top: 2px;
 }
 
 /*Style for the About Me card, distinct from Portfolio cards*/
 
-#bio{
-    margin-top: 0px;
+#bio {
+  margin-top: 0px;
 }
 
-#bio .card{
-    background-color: ghostwhite;
+#bio .card {
+  background-color: ghostwhite;
 }
 
-#bio .col-md{
-    padding-right: 0px;
-    padding-left: 0px;
+#bio .col-md {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
-article, .aboutTabs{
-    margin-left: 5px;
+article,
+.aboutTabs {
+  margin-left: 5px;
 }
-
 
 /*Style for Contact page*/
 
-#con{
-    margin-top: 10px;
-    padding-bottom: 10px;
+#con {
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*Style for Portoflio Page*/
 
-.card-link{
-    text-decoration: underline;
-    color: black;
+.card-link {
+  text-decoration: underline;
+  color: black;
 }
 
-.pHeader{
-    border-bottom-style: solid;
-    border-width: thin;
-    background-color: #d3e4fb;
+.pHeader {
+  border-bottom-style: solid;
+  border-width: thin;
+  background-color: #d3e4fb;
 }
 
-.card-footer{
-    background-color: #d3e4fb;
+.card-footer {
+  background-color: #d3e4fb;
 }
 
-.card-footer.row{
-    margin-right: 0px;
-    margin-left: 0px;
+.card-footer.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 /*Reduces padding between body/navbar for cleaner design on mobile*/
 @media only screen and (max-width: 600px) {
-    body {
-      padding-top: 40px;
-    }
+  body {
+    padding-top: 40px;
   }
+}

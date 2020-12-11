@@ -7,10 +7,12 @@ import Header from '../components/Header';
 // Export contact page
 export default function Contact() {
   return (
-    <Container>
+    <Container className="main">
       <Header page={'Contact'} />
       <Row className="justify-content-start" id="con">
-        <ContactForm />
+        <Container>
+          <ContactForm />
+        </Container>
       </Row>
       <Footer />
     </Container>
