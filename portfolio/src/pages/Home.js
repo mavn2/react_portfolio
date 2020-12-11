@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import CenterCard from '../components/Card'
+import CenterCard from '../components/CenterCard'
 import Footer from '../components/Footer'
 import {Container, Row, Col} from 'react-bootstrap';
 
