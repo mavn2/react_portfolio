@@ -16,8 +16,8 @@ export default function CenterCard(props) {
               <Tab eventKey="bio" title="Bio">
                 <article style={{ marginTop: '15px' }}>
                   <h3>{props.title}</h3>
-                  {props.text.map((p) => {
-                    return <p>{p}</p>;
+                  {props.text.map((index, p) => {
+                    return <p key={index}>{p}</p>;
                   })}
                 </article>
               </Tab>

@@ -4,7 +4,9 @@ import React from 'react';
 export default function List({ array }) {
   return (
     <ul>
-      {array.map(item => (<li>{item}</li>))}
+      {array.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
     </ul>
   );
-};
+}
