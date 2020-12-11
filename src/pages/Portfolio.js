@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, CardColumns } from 'react-bootstrap';
-import Item from '../components/PortfolioItem';
+import Project from '../components/Project';
 import Header from '../components/Header';
 
 // Array of projects is imported, keeping this file focused on the page
@@ -15,7 +15,7 @@ export default function Portfolio() {
       <Header page={'Portfolio'} />
       <CardColumns>
         {projects.map((project) => (
-          <Item
+          <Project
             name={project.name}
             src={project.src}
             git={project.git}
