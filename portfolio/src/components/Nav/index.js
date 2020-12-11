@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap/';
 import Container from 'react-bootstrap/Container';
 
+// Returns the site's navbar for use across components
 function NavBar() {
   return (
     <Navbar expand="lg" variant="light" fixed="top">
@@ -15,7 +16,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  )
-};
+  );
+}
 
 export default NavBar;

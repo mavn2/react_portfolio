@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ContactForm from '../components/ContactForm';
 
-
-export default function Contact(){
+// Export contact page
+export default function Contact() {
   return (
     <Container>
       <Row className="justify-content-start">
@@ -12,8 +12,8 @@ export default function Contact(){
         </Col>
       </Row>
       <Row className="justify-content-start" id="con">
-       <ContactForm />
+        <ContactForm />
       </Row>
     </Container>
-  )
-};
+  );
+}
