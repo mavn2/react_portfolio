@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 function NavBar() {
   return (
     <Navbar expand="lg" variant="light" fixed="top">
-      <Container>
+      <Container fluid>
         <Navbar.Brand>Max Nicolai</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse>
