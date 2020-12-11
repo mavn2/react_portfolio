@@ -1,16 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ContactForm from '../components/ContactForm';
+import Header from '../components/Header';
 
 // Export contact page
 export default function Contact() {
   return (
     <Container>
-      <Row className="justify-content-start">
-        <Col md className="head">
-          <h2>Contact</h2>
-        </Col>
-      </Row>
+      <Header page={'Contact'} />
       <Row className="justify-content-start" id="con">
         <ContactForm />
       </Row>
