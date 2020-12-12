@@ -22,7 +22,7 @@ export default function Footer() {
           </a>
         </h5>
       </Col>
-      <Col sm={3} md={2}>
+      <Col sm={2}>
         <h5 className="text-center">
           <a
             href="https://www.linkedin.com/in/max-nicolai/"
@@ -34,7 +34,7 @@ export default function Footer() {
           </a>
         </h5>
       </Col>
-      <Col sm={3} md={2}>
+      <Col sm={2} md={2}>
         <h5 className="text-center">
           <a
             href={resume}
@@ -46,7 +46,7 @@ export default function Footer() {
           </a>
         </h5>
       </Col>
-      <Col sm={3} md={2}>
+      <Col sm={4} md={2}>
         <h5 className="text-center">(206) 450-1913</h5>
       </Col>
       <Col sm={3} md={2}>
