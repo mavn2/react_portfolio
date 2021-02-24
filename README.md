@@ -1,5 +1,7 @@
 # React Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![Portfolio page displaying past projects](https://user-images.githubusercontent.com/62775874/101970942-6e0e2300-3be2-11eb-80f8-104514190c80.png?s=250)
+
 ## Description
 
 This project is a port of the portfolio I made for my second assignment in Bootcamp to React from static HTML.
